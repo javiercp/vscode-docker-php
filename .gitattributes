@@ -1,0 +1,8 @@
+# Estos dos ficheros van dentro de un contenedor unix, siempre deberían tener los saltos de linea como lf
+000-default.conf text eol=lf
+apache2-foreground text eol=lf
+
+# En este caso solo queremos que se vea el fichero .PHP para que se identifique correctamente el repo
+* linguist-vendored
+*.php linguist-vendored=false
+
